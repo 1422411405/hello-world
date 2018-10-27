@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已经配对的设备"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listview_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textview_found_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描到的新设备"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listview_found_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描设备" />
+</LinearLayout>
